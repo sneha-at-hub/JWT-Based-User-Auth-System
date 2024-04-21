@@ -1,0 +1,58 @@
+.App{
+  display:flex;
+  flex-direction: column;
+
+
+
+}
+
+.AppHeader {
+  background: #fffefe;
+  color: #403838;
+  height: 60px;
+  display: flex;
+  margin-left: 261px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  position: sticky; /* Stick the header to the top of the container */
+  top: 0; /* Position the header at the top of the container */
+  z-index: 10; /* Ensure header appears above content */
+}
+
+.AppFooter{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  margin-top: 20px; /* Adjust as needed */
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+}
+/* App.css */
+.PageContent {
+  flex: 1;
+  overflow-y: auto; /* Add this to enable vertical scrolling if needed */
+}
+
+ 
+  
+  .Appxs {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+  }
+  
+  /* Add more styles as needed */
+  
+
+

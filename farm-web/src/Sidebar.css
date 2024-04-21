@@ -1,0 +1,103 @@
+/* Sidebar.css */
+
+.sidebar {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0px;
+  padding-top: 20px;
+  background-color: gren;
+  color: #333;
+  box-shadow: 0 10000px 10px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+
+}
+
+.sidebar ul li {
+  padding: 10px;
+  text-align: left;
+  transition: background-color 0.3s, transform 0.2s; /* Include transform in transition */
+  display: flex;
+  width: 190px;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-right: 90px;
+  border-radius: 15px;
+
+
+}
+
+.sidebar ul li:hover {
+  transform: translateX(5px); /* Move item slightly to the right on hover */
+  margin-bottom: 10px;
+  align-items: center;
+  margin-right: 90px;
+  border-radius: 15px;
+ 
+}
+
+.sidebar ul li.active {
+  background-color: #24cd2199;
+  width: 160px;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a svg {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  transition: transform 0.2s; /* Add transform transition for icon */
+}
+
+.sidebar ul li a span {
+  padding-left: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  
+
+}
+
+.sidebar ul li a:hover {
+  width: 190px;
+}
+
+.logout-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: red;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #f8f9fa; /* Change to your desired hover color */
+}
+
+.logout-icon {
+  margin-right: 10px;
+}
